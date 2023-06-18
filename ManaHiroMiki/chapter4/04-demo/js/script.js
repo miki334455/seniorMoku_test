@@ -1,6 +1,7 @@
 const btn = document.querySelector('#btn');
 
 btn.addEventListener('click', () => {
+  //toggle()は、引数に指定したクラスがあれば削除し、なければ追加するメソッドです
   document.body.classList.toggle('dark-theme');
   
   // もしボタンのテキストが「ダークモードにする」になっているなら

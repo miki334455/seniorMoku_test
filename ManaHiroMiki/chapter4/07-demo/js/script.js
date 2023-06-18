@@ -7,10 +7,10 @@ text.addEventListener('keyup', () => {
   // 100文字を超えるなら
   if (text.value.length > 100) {
     // alert クラスを加える
-    count.classList.add('alert');
+    count.classList.add('alert');// クラスを追加
     // そうでないなら（100文字以下なら）
   } else {
     // alert クラスをはずす
-    count.classList.remove('alert');
+    count.classList.remove('alert');// removeでクラスを削除・変更
   }
 });
